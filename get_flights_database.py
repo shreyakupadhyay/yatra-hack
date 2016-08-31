@@ -3,7 +3,7 @@ import sys
 import time
 import json
 import MySQLdb
-db = MySQLdb.connect('localhost','root','BlackHole','yatra')
+db = MySQLdb.connect('localhost','root',*******,'yatra')
 cursor = db.cursor()
 origin = sys.argv[1]
 destination = sys.argv[2] 
