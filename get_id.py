@@ -3,7 +3,7 @@ import sys
 import json
 import os
 import time
-API_KEY = 'cYOXzIRsxAPAawOUfb13ZavUPiDmpszM'
+API_KEY = '*******************'
 
 html = urllib.urlopen('http://api.sandbox.amadeus.com/v1.2/airports/autocomplete?apikey='+API_KEY +'&term='+ sys.argv[1])
 
