@@ -5,7 +5,7 @@ import json
 import MySQLdb
 import random
 import pickledb
-db = MySQLdb.connect('localhost','root','BlackHole','yatra')
+db = MySQLdb.connect('localhost','root',***********,'yatra')
 session_id = random.randint(100000000,999999999)
 print session_id
 cursor = db.cursor()
